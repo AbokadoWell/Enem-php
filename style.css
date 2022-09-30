@@ -1,0 +1,61 @@
+body {
+    font-family: verdana;
+}
+h1 { /*"Sua média"*/
+    color: #f0ce00;
+    text-align: center;
+    font-size: 40pt;
+    -webkit-text-stroke: 1px #211915;
+}
+.subt { /*"Sua média de pontos no ENEM está boa em relação à nota de corte do curso desejado?"*/
+    text-align: center;
+    color: #f0ce00;
+    font-size: 20pt;
+    -webkit-text-stroke: 0.5px #211915;
+}
+.imgstyle { /*Style da div da logo do ENEM*/
+    position: fixed;
+    right: 0.5%;
+    top: 2%;
+    max-width: 150px;
+}
+button { /*"Clique aqui para calcular"*/
+    color: white;
+    border: none;
+    background-color: #0086c9;
+    font-size: 17pt;
+    border: 2px solid #0086c9;
+    padding: 15px 32px;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color: #b5d8f2;
+    color: #0086c9;
+    cursor: pointer;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+}
+.etapa1 { /*Notas de cada área*/
+    font-size: 12pt;
+    text-align: justify;
+    color: #211915;
+    margin-left: 3%;
+}
+.etapa2 { /*Média, corte e resultado*/
+    font-size: 15pt;
+    text-align: justify;
+    color: #211915;
+    margin-left: 3%;
+}
+/*
+cores inspiradas na logo
+vermelho claro #be0811
+vermelho escuro #8f152d
+preto #211915
+amarelo #f0ce00
+azul1 #0086c9
+azul2 #009ada
+azul3 #b5d8f2
+*/
